@@ -20,7 +20,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/pythonapp:latest .
+          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/python-app:latest .
 
       - name: Push Docker image
         run: |
